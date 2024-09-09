@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sm:scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,14 +17,18 @@
             <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
               <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
               <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
-              <a href="#contact" class="hover:opacity-90">Vontact Us</a>
+              <a href="#contact" class="hover:opacity-90">Contact Us</a>
             </nav>
           </div>
         </section>
       </header>
 
       <main class="max-w-4xl mx-auto">
-          <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12">
+          <section id="hero" 
+          class="flex flex-col-reverse 
+          justify-center sm:flex-row 
+          p-6 items-center gap-8 mb-12
+          scroll-mt-40">
             <article class="sm:w-1/2">
               <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
                 We Boldy Go <span class="text-indigo-700 dark:text-indigo-300 ">Where No Rocket</span> Has Gone Before... 
@@ -41,17 +45,74 @@
           </section>
           
           <hr class="mx-auto bg-black dark:bg-white w-1/2">
-          <section id="rockets" class="p-6 my-12">
-            <h2 class="text-4xl font-bold text-center sm-text-5xl mb-6 text-slate-900 dark:text-white">
+          <section id="rockets" class="p-6 my-12 scroll-mt-20">
+            <h2
+            class="text-4xl font-bold text-center 
+            sm-text-5xl mb-6 text-slate-900 
+            dark:text-white">
               Our Rockets
             </h2>
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
               <li 
-              class="flex flex-col items-center border 
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border 
               border-solid border-slate-900 
               dark:border-gray-100 bg-white 
-              py-6 px-2 rounded-3xl shadow-xl">
-                  
+              dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                <img src="./img/rocketdab.jpg" alt="Explorer" 
+                class="w-1/2 mb-6">
+                <h3 
+                class="text-3xl text-center 
+                text-slate-900 dark:text-white">
+                Explorer</h3>
+                <p
+                class="hidden sm:block text-3xl text-center 
+                text-slate-500 dark:text-slate-400">$</p>
+                <p
+                class="sm:hidden text-2xl text-center mt-2
+                text-slate-500 dark:text-slate-400">
+                Affordable Exploration</p>
+              </li>
+
+
+              <li 
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border 
+              border-solid border-slate-900 
+              dark:border-gray-100 bg-white 
+              dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                <img src="./img/Explore_sky.jpg" alt="Adventurer" 
+                class="w-1/2 mb-6">
+                <h3 
+                class="text-3xl text-center 
+                text-slate-900 dark:text-white">
+                Adventurer</h3>
+                <p
+                class="hidden sm:block text-3xl text-center 
+                text-slate-500 dark:text-slate-400">$$</p>
+                <p
+                class="sm:hidden text-2xl text-center mt-2
+                text-slate-500 dark:text-slate-400">
+                Best Selling Rocket!</p>
+              </li>
+
+
+              <li 
+              class="w-2/3 sm:w-5/6 flex flex-col items-center border 
+              border-solid border-slate-900 
+              dark:border-gray-100 bg-white 
+              dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                <img src="./img/sky-rocket.jpg" alt="Infinity" 
+                class="w-1/2 mb-6">
+                <h3 
+                class="text-3xl text-center 
+                text-slate-900 dark:text-white">
+                Infinity</h3>
+                <p
+                class="hidden sm:block text-3xl text-center 
+                text-slate-500 dark:text-slate-400">$$$</p>
+                <p
+                class="sm:hidden text-2xl text-center mt-2
+                text-slate-500 dark:text-slate-400">
+                Luxury Startship</p>
               </li>
             </ul>
           </section>

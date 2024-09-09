@@ -2,4 +2,3 @@ node_modules
 /package-lock.json
 /server/dates.js
 /server/test.js
-./https://github.com/Mchiir/Acme-Rockets.git
